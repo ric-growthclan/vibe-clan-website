@@ -29,12 +29,12 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="discord" size="lg" className="text-lg px-8 py-4 h-auto animate-float">
+            <Button variant="discord" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300">
               <MessageSquare className="mr-2" />
               Join Discord
               <ExternalLink className="ml-2 w-4 h-4" />
             </Button>
-            <Button variant="reddit" size="lg" className="text-lg px-8 py-4 h-auto animate-float" style={{ animationDelay: '0.5s' }}>
+            <Button variant="reddit" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300">
               <MessageCircle className="mr-2" />
               Explore Reddit
               <ExternalLink className="ml-2 w-4 h-4" />
@@ -47,7 +47,7 @@ const Index = () => {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 gradient-text">
-            Why Join VibeCoding?
+            Why Join VibeHackers?
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -142,12 +142,12 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="discord" size="lg" className="text-lg px-10 py-5 h-auto animate-float">
+            <Button variant="discord" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300">
               <MessageSquare className="mr-2" />
               Join Discord Community
               <ExternalLink className="ml-2 w-4 h-4" />
             </Button>
-            <Button variant="reddit" size="lg" className="text-lg px-10 py-5 h-auto animate-float" style={{ animationDelay: '0.5s' }}>
+            <Button variant="reddit" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300">
               <MessageCircle className="mr-2" />
               Explore Reddit Hub
               <ExternalLink className="ml-2 w-4 h-4" />
