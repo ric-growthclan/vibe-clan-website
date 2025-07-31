@@ -131,6 +131,66 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Latest Blog Posts Section */}
+      <section className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Latest from Our <span className="gradient-text">Blog</span>
+            </h2>
+            <p className="text-xl text-muted-foreground font-mono">
+              Deep dives, tutorials, and insights from the AI coding frontier
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {[
+              {
+                title: "Building a SaaS with Claude Sonnet in 48 Hours",
+                excerpt: "How we shipped a complete product using AI-generated code and zero traditional development",
+                readTime: "8 min read",
+                tag: "Case Study"
+              },
+              {
+                title: "The Ultimate AI Coding Prompt Library",
+                excerpt: "50+ battle-tested prompts that actually work for React, Python, and more",
+                readTime: "12 min read",
+                tag: "Resources"
+              },
+              {
+                title: "From Idea to $10K MRR with AI Tools",
+                excerpt: "Member spotlight: How Sarah used AI to build and scale her micro-SaaS",
+                readTime: "6 min read",
+                tag: "Success Story"
+              }
+            ].map((post, i) => (
+              <Card key={i} className="card-glow p-6 hover:transform hover:scale-105 transition-all duration-300 cursor-pointer">
+                <div className="mb-4">
+                  <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-sm font-mono rounded-full">
+                    {post.tag}
+                  </span>
+                </div>
+                <h3 className="text-xl font-bold mb-3 font-mono leading-tight">{post.title}</h3>
+                <p className="text-muted-foreground mb-4 leading-relaxed">{post.excerpt}</p>
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-muted-foreground font-mono">{post.readTime}</span>
+                  <Button variant="ghost" size="sm" className="p-0 h-auto font-mono">
+                    Read More →
+                  </Button>
+                </div>
+              </Card>
+            ))}
+          </div>
+          
+          <div className="text-center">
+            <Button variant="outline" size="lg" className="font-mono">
+              View All Articles
+              <ExternalLink className="ml-2 w-4 h-4" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA Section */}
       <section className="py-24 px-6 bg-gradient-to-r from-background via-secondary/10 to-background">
         <div className="max-w-4xl mx-auto text-center">
