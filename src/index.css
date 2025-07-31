@@ -44,6 +44,9 @@ All colors MUST be HSL.
     --shadow-glow: 0 0 30px hsl(25 95% 53% / 0.3);
     --shadow-card: 0 8px 32px hsl(220 13% 5% / 0.4);
     
+    /* Grid pattern for backgrounds */
+    --grid-pattern: radial-gradient(circle, hsl(var(--border)) 1px, transparent 1px);
+    
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
@@ -154,5 +157,12 @@ All colors MUST be HSL.
   .card-glow:hover {
     border-color: hsl(var(--accent));
     box-shadow: var(--shadow-glow);
+  }
+
+  /* Grid pattern background */
+  .grid-pattern {
+    background-image: var(--grid-pattern);
+    background-size: 24px 24px;
+    background-position: 0 0;
   }
 }
