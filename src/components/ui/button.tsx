@@ -9,15 +9,18 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 font-mono font-semibold",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
+          "border border-input bg-background hover:bg-accent hover:text-accent-foreground font-mono",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+          "bg-secondary text-secondary-foreground hover:bg-secondary/80 font-mono",
+        ghost: "hover:bg-accent hover:text-accent-foreground font-mono",
+        link: "text-primary underline-offset-4 hover:underline font-mono",
+        hero: "bg-gradient-to-r from-primary to-accent text-primary-foreground hover:shadow-[0_0_20px_hsl(25_95%_53%/0.4)] transform hover:scale-105 transition-all duration-300 font-mono font-bold tracking-wide",
+        discord: "bg-[#5865F2] text-white hover:bg-[#4752C4] font-mono font-semibold hover:shadow-[0_0_20px_#5865F2/0.4] transition-all duration-300",
+        reddit: "bg-[#FF4500] text-white hover:bg-[#E03D00] font-mono font-semibold hover:shadow-[0_0_20px_#FF4500/0.4] transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
