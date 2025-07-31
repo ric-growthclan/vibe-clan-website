@@ -45,7 +45,7 @@ All colors MUST be HSL.
     --shadow-card: 0 8px 32px hsl(220 13% 5% / 0.4);
     
     /* Grid pattern for backgrounds */
-    --grid-pattern: radial-gradient(circle, hsl(var(--border)) 1px, transparent 1px);
+    --grid-pattern: radial-gradient(circle, hsl(var(--primary) / 0.15) 2px, transparent 2px);
     
     --radius: 0.75rem;
 
@@ -162,7 +162,7 @@ All colors MUST be HSL.
   /* Grid pattern background */
   .grid-pattern {
     background-image: var(--grid-pattern);
-    background-size: 24px 24px;
+    background-size: 32px 32px;
     background-position: 0 0;
   }
 }
