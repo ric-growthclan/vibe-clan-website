@@ -30,15 +30,19 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="discord" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300">
-              <MessageSquare className="mr-2" />
-              Join Discord
-              <ExternalLink className="ml-2 w-4 h-4" />
+            <Button variant="discord" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://discord.gg/45gAz8ZMuN" target="_blank" rel="noopener noreferrer">
+                <MessageSquare className="mr-2" />
+                Join Discord
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
             </Button>
-            <Button variant="reddit" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300">
-              <MessageCircle className="mr-2" />
-              Explore Reddit
-              <ExternalLink className="ml-2 w-4 h-4" />
+            <Button variant="reddit" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://www.reddit.com/r/vibeclan/" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="mr-2" />
+                Explore Reddit
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
             </Button>
           </div>
         </div>
@@ -203,15 +207,19 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="discord" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300">
-              <MessageSquare className="mr-2" />
-              Join Discord Community
-              <ExternalLink className="ml-2 w-4 h-4" />
+            <Button variant="discord" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://discord.gg/45gAz8ZMuN" target="_blank" rel="noopener noreferrer">
+                <MessageSquare className="mr-2" />
+                Join Discord Community
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
             </Button>
-            <Button variant="reddit" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300">
-              <MessageCircle className="mr-2" />
-              Explore Reddit Hub
-              <ExternalLink className="ml-2 w-4 h-4" />
+            <Button variant="reddit" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://www.reddit.com/r/vibeclan/" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="mr-2" />
+                Explore Reddit Hub
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
             </Button>
           </div>
         </div>
