@@ -30,15 +30,19 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="discord" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300">
-              <MessageSquare className="mr-2" />
-              Join Discord
-              <ExternalLink className="ml-2 w-4 h-4" />
+            <Button variant="discord" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://discord.gg/45gAz8ZMuN" target="_blank" rel="noopener noreferrer">
+                <MessageSquare className="mr-2" />
+                Join Discord
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
             </Button>
-            <Button variant="reddit" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300">
-              <MessageCircle className="mr-2" />
-              Explore Reddit
-              <ExternalLink className="ml-2 w-4 h-4" />
+            <Button variant="reddit" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://www.reddit.com/r/vibeclan/" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="mr-2" />
+                Explore Reddit
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
             </Button>
           </div>
         </div>
@@ -48,7 +52,7 @@ const Index = () => {
       <section className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 gradient-text">
-            Why Join VibeHackers?
+            Why Join VibeClan?
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -203,15 +207,19 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="discord" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300">
-              <MessageSquare className="mr-2" />
-              Join Discord Community
-              <ExternalLink className="ml-2 w-4 h-4" />
+            <Button variant="discord" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://discord.gg/45gAz8ZMuN" target="_blank" rel="noopener noreferrer">
+                <MessageSquare className="mr-2" />
+                Join Discord Community
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
             </Button>
-            <Button variant="reddit" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300">
-              <MessageCircle className="mr-2" />
-              Explore Reddit Hub
-              <ExternalLink className="ml-2 w-4 h-4" />
+            <Button variant="reddit" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://www.reddit.com/r/vibeclan/" target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="mr-2" />
+                Explore Reddit Hub
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
             </Button>
           </div>
         </div>
@@ -220,7 +228,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-2xl font-bold gradient-text mb-4 font-mono">VibeHackers</h3>
+          <h3 className="text-2xl font-bold gradient-text mb-4 font-mono">VibeClan</h3>
           <p className="text-muted-foreground font-mono">Building the future, one AI-generated line at a time.</p>
         </div>
       </footer>
