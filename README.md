@@ -1,4 +1,4 @@
-# Welcome to your Lovable project: test commit
+# Welcome to your Lovable project: test commit 2
 
 ## Project info
 
