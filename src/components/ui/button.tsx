@@ -21,6 +21,7 @@ const buttonVariants = cva(
         hero: "bg-gradient-to-r from-primary to-accent text-primary-foreground hover:shadow-[0_0_20px_hsl(25_95%_53%/0.4)] transform hover:scale-105 transition-all duration-300 font-mono font-bold tracking-wide",
         discord: "bg-[#5865F2] text-white hover:bg-[#4752C4] font-mono font-semibold hover:shadow-[0_0_20px_#5865F2/0.4] transition-all duration-300",
         reddit: "bg-[#FF4500] text-white hover:bg-[#E03D00] font-mono font-semibold hover:shadow-[0_0_20px_#FF4500/0.4] transition-all duration-300",
+        youtube: "bg-[#FF0000] text-white hover:bg-[#CC0000] font-mono font-semibold hover:shadow-[0_0_20px_#FF0000/0.4] transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",

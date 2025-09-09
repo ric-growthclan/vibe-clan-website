@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ExternalLink, Code, Users, DollarSign, Lightbulb, MessageSquare, MessageCircle } from "lucide-react";
+import { ExternalLink, Code, Users, DollarSign, Lightbulb, MessageSquare, MessageCircle, Youtube } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 import aiCodeIcon from "@/assets/ai-code-icon.jpg";
 import collaborationIcon from "@/assets/collaboration-icon.jpg";
@@ -30,6 +30,13 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+            <Button variant="youtube" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://www.youtube.com/@vibeclan-community" target="_blank" rel="noopener noreferrer">
+                <Youtube className="mr-2" />
+                Watch on YouTube
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
+            </Button>
             <Button variant="discord" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
               <a href="https://discord.gg/45gAz8ZMuN" target="_blank" rel="noopener noreferrer">
                 <MessageSquare className="mr-2" />
@@ -207,6 +214,13 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+            <Button variant="youtube" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
+              <a href="https://www.youtube.com/@vibeclan-community" target="_blank" rel="noopener noreferrer">
+                <Youtube className="mr-2" />
+                Watch on YouTube
+                <ExternalLink className="ml-2 w-4 h-4" />
+              </a>
+            </Button>
             <Button variant="discord" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
               <a href="https://discord.gg/45gAz8ZMuN" target="_blank" rel="noopener noreferrer">
                 <MessageSquare className="mr-2" />
