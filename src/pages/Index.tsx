@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ExternalLink, Code, Users, DollarSign, Lightbulb, MessageSquare, MessageCircle, Youtube } from "lucide-react";
+import { ExternalLink, Code, Users, DollarSign, Lightbulb, MessageSquare } from "lucide-react";
+import { FaYoutube, FaDiscord, FaReddit } from "react-icons/fa";
 import heroImage from "@/assets/hero-bg.jpg";
 import aiCodeIcon from "@/assets/ai-code-icon.jpg";
 import collaborationIcon from "@/assets/collaboration-icon.jpg";
@@ -43,7 +44,7 @@ const Index = () => {
                 aria-label="Visit our YouTube channel"
                 title="YouTube"
               >
-                <Youtube className="w-7 h-7" />
+                <FaYoutube className="w-7 h-7" />
                 <span className="sr-only">YouTube</span>
               </a>
             </Button>
@@ -60,7 +61,7 @@ const Index = () => {
                 aria-label="Join our Discord"
                 title="Discord"
               >
-                <MessageSquare className="w-7 h-7" />
+                <FaDiscord className="w-7 h-7" />
                 <span className="sr-only">Discord</span>
               </a>
             </Button>
@@ -77,7 +78,7 @@ const Index = () => {
                 aria-label="Explore our Reddit"
                 title="Reddit"
               >
-                <MessageCircle className="w-7 h-7" />
+                <FaReddit className="w-7 h-7" />
                 <span className="sr-only">Reddit</span>
               </a>
             </Button>
@@ -246,21 +247,21 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <Button variant="youtube" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
               <a href="https://www.youtube.com/@vibeclan-community" target="_blank" rel="noopener noreferrer">
-                <Youtube className="mr-2" />
+                <FaYoutube className="mr-2" />
                 Watch on YouTube
                 <ExternalLink className="ml-2 w-4 h-4" />
               </a>
             </Button>
             <Button variant="discord" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
               <a href="https://discord.gg/45gAz8ZMuN" target="_blank" rel="noopener noreferrer">
-                <MessageSquare className="mr-2" />
+                <FaDiscord className="mr-2" />
                 Join Discord Community
                 <ExternalLink className="ml-2 w-4 h-4" />
               </a>
             </Button>
             <Button variant="reddit" size="lg" className="text-lg px-10 py-5 h-auto hover:scale-105 transition-transform duration-300" asChild>
               <a href="https://www.reddit.com/r/vibeclan/" target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="mr-2" />
+                <FaReddit className="mr-2" />
                 Explore Reddit Hub
                 <ExternalLink className="ml-2 w-4 h-4" />
               </a>
