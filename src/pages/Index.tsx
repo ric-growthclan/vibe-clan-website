@@ -29,26 +29,56 @@ const Index = () => {
             Join the global community of developers building, sharing, and monetizing AI-generated code.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="youtube" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
-              <a href="https://www.youtube.com/@vibeclan-community" target="_blank" rel="noopener noreferrer">
-                <Youtube className="mr-2" />
-                Watch on YouTube
-                <ExternalLink className="ml-2 w-4 h-4" />
+          <div className="flex flex-row gap-5 justify-center items-center">
+            <Button
+              variant="youtube"
+              size="icon"
+              className="w-14 h-14 rounded-full hover:scale-110 transition-transform duration-300"
+              asChild
+            >
+              <a
+                href="https://www.youtube.com/@vibeclan-community"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our YouTube channel"
+                title="YouTube"
+              >
+                <Youtube className="w-7 h-7" />
+                <span className="sr-only">YouTube</span>
               </a>
             </Button>
-            <Button variant="discord" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
-              <a href="https://discord.gg/45gAz8ZMuN" target="_blank" rel="noopener noreferrer">
-                <MessageSquare className="mr-2" />
-                Join Discord
-                <ExternalLink className="ml-2 w-4 h-4" />
+            <Button
+              variant="discord"
+              size="icon"
+              className="w-14 h-14 rounded-full hover:scale-110 transition-transform duration-300"
+              asChild
+            >
+              <a
+                href="https://discord.gg/45gAz8ZMuN"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Join our Discord"
+                title="Discord"
+              >
+                <MessageSquare className="w-7 h-7" />
+                <span className="sr-only">Discord</span>
               </a>
             </Button>
-            <Button variant="reddit" size="lg" className="text-lg px-8 py-4 h-auto hover:scale-105 transition-transform duration-300" asChild>
-              <a href="https://www.reddit.com/r/vibeclan/" target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="mr-2" />
-                Explore Reddit
-                <ExternalLink className="ml-2 w-4 h-4" />
+            <Button
+              variant="reddit"
+              size="icon"
+              className="w-14 h-14 rounded-full hover:scale-110 transition-transform duration-300"
+              asChild
+            >
+              <a
+                href="https://www.reddit.com/r/vibeclan/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Explore our Reddit"
+                title="Reddit"
+              >
+                <MessageCircle className="w-7 h-7" />
+                <span className="sr-only">Reddit</span>
               </a>
             </Button>
           </div>
