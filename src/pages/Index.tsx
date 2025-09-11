@@ -34,7 +34,7 @@ const Index = () => {
             <Button
               variant="youtube"
               size="icon"
-              className="w-14 h-14 rounded-full hover:scale-110 transition-transform duration-300"
+              className="w-20 h-20 rounded-2xl hover:scale-110 transition-transform duration-300"
               asChild
             >
               <a
@@ -44,14 +44,14 @@ const Index = () => {
                 aria-label="Visit our YouTube channel"
                 title="YouTube"
               >
-                <FaYoutube className="w-7 h-7" />
+                <FaYoutube className="w-14 h-14" />
                 <span className="sr-only">YouTube</span>
               </a>
             </Button>
             <Button
               variant="discord"
               size="icon"
-              className="w-14 h-14 rounded-full hover:scale-110 transition-transform duration-300"
+              className="w-20 h-20 rounded-2xl hover:scale-110 transition-transform duration-300"
               asChild
             >
               <a
@@ -61,14 +61,14 @@ const Index = () => {
                 aria-label="Join our Discord"
                 title="Discord"
               >
-                <FaDiscord className="w-7 h-7" />
+                <FaDiscord className="w-14 h-14" />
                 <span className="sr-only">Discord</span>
               </a>
             </Button>
             <Button
               variant="reddit"
               size="icon"
-              className="w-14 h-14 rounded-full hover:scale-110 transition-transform duration-300"
+              className="w-20 h-20 rounded-2xl hover:scale-110 transition-transform duration-300"
               asChild
             >
               <a
@@ -78,7 +78,7 @@ const Index = () => {
                 aria-label="Explore our Reddit"
                 title="Reddit"
               >
-                <FaReddit className="w-7 h-7" />
+                <FaReddit className="w-14 h-14" />
                 <span className="sr-only">Reddit</span>
               </a>
             </Button>
